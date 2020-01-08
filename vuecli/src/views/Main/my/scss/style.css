@@ -1,0 +1,188 @@
+.wrap-my {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  background: #f8f8f8;
+}
+
+.wrap-my .petname {
+  width: 100%;
+  height: 264px;
+  background: #fe3113;
+  box-shadow: 0px 1px 1px 0px rgba(255, 64, 54, 0.2);
+}
+
+.wrap-my .petname dl {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrap-my .petname dl dt {
+  width: 70%;
+}
+
+.wrap-my .petname dl dt .names {
+  font-size: 40px;
+  font-weight: 500;
+  color: white;
+  -webkit-text-stroke: 1px white;
+  text-stroke: 1px white;
+  padding: 35px 0 0 20px;
+}
+
+.wrap-my .petname dl dt .datas {
+  font-size: 24px;
+  font-weight: 400;
+  display: inline-block;
+  color: white;
+  margin: 20px 0 0 20px;
+}
+
+.wrap-my .petname dl dd {
+  flex: 1;
+}
+
+.wrap-my .petname dl dd .image {
+  width: 150px;
+  height: 100px;
+  color: #fff;
+  text-align: center;
+  margin: 55px auto 0;
+}
+
+.wrap-my .petname dl dd .image img {
+  width: 100%;
+  height: 100%;
+}
+
+.wrap-my .indent {
+  width: 690px;
+  height: 299px;
+  margin: -50px auto;
+  border-radius: 12px;
+  background: white;
+  border: 1px solid #f0f0f0;
+  box-shadow: 0px 33px 20px -20px rgba(0, 0, 0, 0.11), 0px 0px 17px -3px rgba(0, 0, 0, 0.06);
+}
+
+.wrap-my .indent .examine {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrap-my .indent .examine span {
+  padding: 25px;
+}
+
+.wrap-my .indent .payment {
+  width: 100%;
+  height: 210px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.wrap-my .indent .payment dl {
+  width: 30%;
+  text-align: center;
+}
+
+.wrap-my .indent .payment dl dt {
+  width: 70px;
+  height: 50px;
+  font-size: 50px;
+  margin: 50px auto 0;
+  line-height: 50px;
+}
+
+.wrap-my .indent .payment dl dd {
+  margin: 15px 0;
+}
+
+.wrap-my .discount {
+  width: 690px;
+  height: 342px;
+  margin: 80px auto;
+  background: white;
+  box-shadow: 0px 0px 17px -3px rgba(0, 0, 0, 0.06);
+  box-shadow: 0px 33px 20px -20px rgba(0, 0, 0, 0.11), 0px 0px 17px -3px rgba(0, 0, 0, 0.06);
+  border-radius: 12px;
+  border: 1px solid #f0f0f0;
+}
+
+.wrap-my .discount span {
+  width: 90%;
+  height: 70px;
+  line-height: 70px;
+  padding: 0 30px;
+}
+
+.wrap-my .discount .yue {
+  width: 100%;
+  height: 76%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.wrap-my .discount .yue dl {
+  width: 30%;
+  text-align: center;
+}
+
+.wrap-my .discount .yue dl dt {
+  width: 70px;
+  height: 50px;
+  margin: 50px auto 0;
+}
+
+.wrap-my .discount .yue dl dd {
+  margin: 15px 0;
+}
+
+.wrap-my .serve {
+  width: 690px;
+  height: 342px;
+  margin: 80px auto;
+  background: white;
+  box-shadow: 0px 0px 17px -3px rgba(0, 0, 0, 0.06);
+  box-shadow: 0px 33px 20px -20px rgba(0, 0, 0, 0.11), 0px 0px 17px -3px rgba(0, 0, 0, 0.06);
+  border-radius: 12px;
+  border: 1px solid #f0f0f0;
+}
+
+.wrap-my .serve span {
+  display: block;
+  width: 90%;
+  height: 70px;
+  line-height: 70px;
+  padding: 0 30px;
+}
+
+.wrap-my .serve .fuwuq {
+  width: 100%;
+  height: 76%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.wrap-my .serve .fuwuq dl {
+  width: 30%;
+  height: 50%;
+  text-align: center;
+}
+
+.wrap-my .serve .fuwuq dl dt {
+  width: 70px;
+  height: 50px;
+  margin: 0 auto 0;
+}
+
+.wrap-my .serve .fuwuq dl dd {
+  margin: 15px 0;
+}
+
+.wrap-my .serve .fuwuq dl dd font {
+  font-size: 15px;
+  color: #ccc;
+}

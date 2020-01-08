@@ -1,0 +1,98 @@
+.wrap-details{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    .head{
+        width: 100%;
+        height: 100px;
+        line-height: 100px;
+        .icon{
+            display: inline-block;
+            width: 70px;
+            height: 70px;
+            color:#fff;
+            font-size: 30px;
+            line-height: 70px;
+            text-align: center;
+            border-radius: 50%;
+            background: #000;
+            margin: 0 20px;
+        }
+    }
+    .centers{
+        width: 100%;
+        height: 100%;
+        overflow-y: scroll;
+    
+        .banners{
+            width: 100%;
+            height: 500px;
+            .swiper-slide{
+                width: 100%;
+                height: 500px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    background-size: auto 100%;
+                }
+            }
+        }
+        .titles{
+            height: 200px;
+            margin: 20px 0;
+            // background: red;
+            h3{
+                padding:15px 0;
+            }
+            p{
+                padding: 20px 0;
+            }
+        }
+        .germany{
+            height: 140px;
+            ul{
+                display: flex;
+                justify-content: space-between;
+                li{
+                    width: 33%;
+                    height: 140px;
+                    text-align: center;
+                    background: rgb(238, 238, 238);
+                    p{
+                        margin-top: 25px;
+                    }
+                }
+            }
+        }
+        .promotion-default{
+            height: 70px;
+            margin-top:20px;
+            line-height: 70px;
+            font-size: 30px;
+        }
+        .bann{
+            width: 100%;
+            height:auto;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    .foot{
+        width: 100%;
+        height: 90px;
+        display: flex;
+        justify-content: space-between;
+        .cars{
+            width: 160px;
+            height: 90px;
+            color:#fff;
+            text-align: center;
+            line-height: 90px;
+            background: orange;
+        }
+    }
+}
